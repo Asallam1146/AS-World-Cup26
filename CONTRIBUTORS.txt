@@ -1,0 +1,7 @@
+# This file contains the list of people who have made contributions to the
+# Font Software but do not hold copyright over it. This is distinct from
+# the AUTHORS.txt file, which lists the Copyright Holders.
+#
+# Format: Name <email>
+
+Ahmed Sallam <asallam@ways-sa.com>

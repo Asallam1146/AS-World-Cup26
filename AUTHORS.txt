@@ -1,0 +1,11 @@
+# This file contains the list of Font Copyright Holders.
+# This is distinct from the CONTRIBUTORS.txt file, which lists people who
+# had a hand in creating or maintaining the Font Software but do not hold
+# copyright.
+#
+# If you're making a contribution to the project, please refer to the
+# CONTRIBUTORS.txt file.
+#
+# Format: Name <email>
+
+Ahmed Sallam <asallam@ways-sa.com>
