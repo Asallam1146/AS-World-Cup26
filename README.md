@@ -1,4 +1,4 @@
-# AS World Cup26
+# AS Goal26
 
 A single-weight display Arabic/Latin typeface designed by Ahmed Sallam
 (Sallam Type).
@@ -14,7 +14,7 @@ shipped binary is labeled:
 
 | nameID | Value |
 |---|---|
-| Family (1/16) | AS World Cup26 |
+| Family (1/16) | AS Goal26 |
 | Subfamily (2/17) | Regular |
 | usWeightClass | 400 |
 
@@ -31,46 +31,44 @@ font is one weight only, that file was excluded from this package.
 
 ## Status
 
-1. **Naming — decided.** Final family name: **AS World Cup26**. Note the
-   trademark risk with "World Cup" (FIFA-associated term) still stands —
-   Google Fonts reviewers may flag or reject it on that basis. Proceeding
-   per your call; worst case is a rename request during review, not
-   necessarily an outright rejection of the design.
-2. **Source — resolved.** `sources/AS-WC26.glyphspackage` matches the
-   shipped binary (single BOLD master, weightClass 900 in Glyphs).
+1. **Naming — renamed after rejection.** First submission as
+   **AS World Cup26** (issue google/fonts#10780) was closed "not planned"
+   by a GF reviewer: "World Cup 26" is a registered FIFA trademark for the
+   2026 tournament, and GF can't publish a family whose name conflicts
+   with it regardless of design origin. Renamed to **AS Goal26** — no
+   tournament/organization reference, safe to resubmit.
+2. **Source — resolved.** `sources/AS-WC26.glyphs` matches the shipped
+   binary (single BOLD master, weightClass 900 in Glyphs).
 3. **Commercial withdrawal — in progress.** You're pulling the MyFonts
-   listing and Behance post. Do this before filing the GitHub issue —
-   reviewers do check that no proprietary version exists elsewhere for
-   the same family.
+   listing and Behance post. Confirm this is fully complete before
+   re-checking the "no retail/pro version exists" box on the new issue.
 4. **QA — not run.** Binaries should be run through
    [FontBakery](https://github.com/googlefonts/fontbakery)'s
    `googlefonts` profile before submission. Not run yet (native
    dependency `opentype-sanitizer` failed to build in this environment).
    You can run it locally: `pip install fontbakery[googlefonts]` then
    `fontbakery check-googlefonts fonts/ttf/*.ttf`.
-5. **GitHub repo + CLA — next action, yours to do.** See steps below.
+5. **GitHub repo + CLA — done.** CLA signed. Repo needs the renamed
+   binaries and updated docs pushed, then a new "Add Font" issue filed.
 
 ## How to actually submit (steps only you can do)
 
-1. Create a new **public** GitHub repository (e.g. `AS-World-Cup26`)
-   under your own GitHub account.
-2. Copy everything in this folder into that repo and push it.
-3. Sign the Google CLA at https://cla.developers.google.com using the
-   same GitHub account.
-4. Go to https://github.com/google/fonts/issues, choose the
-   "Submit an OFL Font" issue template, and fill it in — it will ask for
-   the repo URL, your name, and a description (you can reuse
-   `DESCRIPTION.en_us.html`).
-5. Submit. Google's reviewers (via FontBakery CI checks + human review)
-   will respond on the issue, usually flagging anything that needs
-   fixing — naming, missing metadata, glyph coverage, etc.
+1. Push the renamed binaries (`ASGoal26-Regular.otf/.ttf`) and this
+   updated README/DESCRIPTION to your existing repo, replacing the old
+   `ASWorldCup26-Regular.*` files.
+2. Verify "AS Goal26" is free of conflicts at namecheck.fontdata.com.
+3. Go to https://github.com/google/fonts/issues → "Add Font" template →
+   file a new issue with the same repo URL and the updated description,
+   noting the old issue (#10780) and that this is a rename/resubmission.
+4. Submit. Google's reviewers (via FontBakery CI checks + human review)
+   will respond on the issue.
 
 ## What's in this folder
 
 - `OFL.txt`, `AUTHORS.txt`, `CONTRIBUTORS.txt` — license and copyright,
   Ahmed Sallam.
-- `sources/AS-WC26.glyphspackage` — original Glyphs source.
-- `fonts/otf/ASWorldCup26-Regular.otf`, `fonts/ttf/ASWorldCup26-Regular.ttf`
-  — corrected single-style binaries: family "AS World Cup26", Regular/400
+- `sources/AS-WC26.glyphs` — original Glyphs source.
+- `fonts/otf/ASGoal26-Regular.otf`, `fonts/ttf/ASGoal26-Regular.ttf`
+  — corrected single-style binaries: family "AS Goal26", Regular/400
   labeling per GF single-weight convention, OFL license string + URL
   embedded, designer/manufacturer metadata added.
